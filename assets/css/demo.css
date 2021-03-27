@@ -37,6 +37,7 @@
 #navbar-full .navbar {
     border-radius: 0 !important;
     margin-bottom: 0;
+    padding-bottom: 10px;
 }
 .navigation-example {
     margin-top: 0px;
