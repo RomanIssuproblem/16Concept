@@ -9,9 +9,9 @@
 
 .btn {
     background-color: #fff;
-    /* height: 60px;
-    width: 120px; */
     padding: 16px 30px;
     border-radius: 16px;
     border: 1px solid black;
+
+    max-width: 200px;
 }

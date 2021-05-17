@@ -15,17 +15,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     text-align: center;
 
     color: #f2f2f2;
     font-family: Mukta;
     flex: 2;
+
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.header-container__navbar-conainer {
+.header-container__navbar {
     position: fixed;
     width: 100%;
+}
+.header-container__navbar-conainer {
     display: flex;
     justify-content: space-between;
 
