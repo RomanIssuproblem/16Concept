@@ -1,0 +1,17 @@
+.clear-button {
+    background-color: transparent;
+    border: none;
+
+    color: #fff;
+    font-size: 16px;
+    font-family: Mukta;
+}
+
+.btn {
+    background-color: #fff;
+    /* height: 60px;
+    width: 120px; */
+    padding: 16px 30px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
