@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .header-container__main > p {
+        padding: 0 10%;
+    }
+
     /* 
      * Mobile Different Section.
      */
