@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Mukta-Bold;
+    src: url(../assets/fonts/Mukta-Bold.ttf);
+}
+@font-face {
+    font-family: Mukta-ExtraBold;
+    src: url(../assets/fonts/Mukta-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Mukta-ExtraLight;
+    src: url(../assets/fonts/Mukta-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Mukta-Light;
+    src: url(../assets/fonts/Mukta-Light.ttf);
+}
+@font-face {
+    font-family: Mukta-Medium;
+    src: url(../assets/fonts/Mukta-Medium.ttf);
+}
+@font-face {
+    font-family: Mukta;
+    src: url(../assets/fonts/Mukta-Regular.ttf);
+}
+@font-face {
+    font-family: Mukta-SemiBold;
+    src: url(../assets/fonts/Mukta-SemiBold.ttf);
+}

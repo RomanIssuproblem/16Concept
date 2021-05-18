@@ -7,9 +7,18 @@
 
         <title>16 Concept</title>
 
-        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./styles/fonts.css" />
+        <link rel="stylesheet" href="./styles/common.css" />
         <link rel="stylesheet" href="./styles/components.css" />
+
         <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/sections.css" />
     </head>
     <body>
         <div class="container">
@@ -54,181 +63,194 @@
                 <!-- 
                     # [SECTION] What makes me different
                 -->
-                <section class="makes-different-section">
-                    <h2 class="makes-different-section__title">
-                        What makes me different?
-                    </h2>
+                <div class="section-container">
+                    <section class="makes-different-section">
+                        <h2 class="makes-different-section__title">
+                            What makes me different?
+                        </h2>
 
-                    <ul>
-                        <li>
-                            <article class="makes-different-section__article">
-                                <div
-                                    class="
-                                        makes-different-section__article__image
-                                    "
+                        <ul>
+                            <li>
+                                <article
+                                    class="makes-different-section__article"
+                                >
+                                    <div
+                                        class="
+                                            makes-different-section__article__image
+                                        "
+                                    >
+                                        <img
+                                            class="_2BnAI"
+                                            style="
+                                                width: 200px;
+                                                height: 200px;
+                                                object-fit: cover;
+                                            "
+                                            draggable="false"
+                                            src="./assets/images/my-motivation.jpeg"
+                                            alt="My Motivation"
+                                            loading="lazy"
+                                        />
+                                    </div>
+
+                                    <div
+                                        class="
+                                            makes-different-section__article__description
+                                        "
+                                    >
+                                        <h4>My Motivation</h4>
+                                        <p>
+                                            My work is my purpose, my driving
+                                            force. It's the reason I get up
+                                            every day and do what I do. Most
+                                            importantly, it keeps pushing me to
+                                            achieve bigger and better things
+                                            with each new challenge.
+                                        </p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article
+                                    class="makes-different-section__article"
                                 >
                                     <img
-                                        class="_2BnAI"
-                                        style="
-                                            width: 200px;
-                                            height: 200px;
-                                            object-fit: cover;
+                                        class="
+                                            makes-different-section__article__image
                                         "
-                                        draggable="false"
-                                        src="./assets/images/my-motivation.jpeg"
+                                        src="./assets/images/my-clients.jpeg"
                                         alt="My Motivation"
                                         loading="lazy"
                                     />
-                                </div>
-
-                                <div
-                                    class="
-                                        makes-different-section__article__description
-                                    "
+                                    <div
+                                        class="
+                                            makes-different-section__article__description
+                                        "
+                                    >
+                                        <h4>My Clients</h4>
+                                        <p>
+                                            Because I'm experienced, reliable,
+                                            and focused on results, I've had the
+                                            privilege of working with a host of
+                                            fantastic clients.
+                                        </p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article
+                                    class="makes-different-section__article"
                                 >
-                                    <h4>My Motivation</h4>
-                                    <p>
-                                        My work is my purpose, my driving force.
-                                        It's the reason I get up every day and
-                                        do what I do. Most importantly, it keeps
-                                        pushing me to achieve bigger and better
-                                        things with each new challenge.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="makes-different-section__article">
-                                <img
-                                    class="
-                                        makes-different-section__article__image
-                                    "
-                                    src="./assets/images/my-clients.jpeg"
-                                    alt="My Motivation"
-                                    loading="lazy"
-                                />
-                                <div
-                                    class="
-                                        makes-different-section__article__description
-                                    "
-                                >
-                                    <h4>My Clients</h4>
-                                    <p>
-                                        Because I'm experienced, reliable, and
-                                        focused on results, I've had the
-                                        privilege of working with a host of
-                                        fantastic clients.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="makes-different-section__article">
-                                <img
-                                    class="
-                                        makes-different-section__article__image
-                                    "
-                                    src="./assets/images/my-story.jpeg"
-                                    alt="My Story"
-                                    loading="lazy"
-                                />
-                                <div
-                                    class="
-                                        makes-different-section__article__description
-                                    "
-                                >
-                                    <h4>My Story</h4>
-                                    <p>
-                                        We all have a passion. This is mine!
-                                        From an early age, I decided to master
-                                        my craft. And I’ve been learning ever
-                                        since.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
+                                    <img
+                                        class="
+                                            makes-different-section__article__image
+                                        "
+                                        src="./assets/images/my-story.jpeg"
+                                        alt="My Story"
+                                        loading="lazy"
+                                    />
+                                    <div
+                                        class="
+                                            makes-different-section__article__description
+                                        "
+                                    >
+                                        <h4>My Story</h4>
+                                        <p>
+                                            We all have a passion. This is mine!
+                                            From an early age, I decided to
+                                            master my craft. And I’ve been
+                                            learning ever since.
+                                        </p>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
 
                 <!-- 
                     # [SECTION] Get to know me
                 -->
-                <section class="know-me-section">
-                    <h2 class="know-me-section__title">Get to know me</h2>
+                <div class="section-container">
+                    <section class="know-me-section">
+                        <h2 class="know-me-section__title">Get to know me</h2>
 
-                    <ul>
-                        <li>
-                            <div class="know-me-section__article">
-                                <img
-                                    src="./assets/images/about-me.jpeg"
-                                    alt="About Me"
-                                    loading="lazy"
-                                />
-                                <div
-                                    class="
-                                        know-me-section__article__description
-                                    "
-                                >
-                                    <h4>About Me</h4>
-                                    <p>
-                                        I’m an expert in my field but I wouldn’t
-                                        be where I am without those who've
-                                        helped me along the way. That’s why I
-                                        love connecting with like-minded people
-                                        and using my passion and skills to make
-                                        a difference.
-                                    </p>
+                        <ul>
+                            <li>
+                                <div class="know-me-section__article">
+                                    <img
+                                        src="./assets/images/about-me.jpeg"
+                                        alt="About Me"
+                                        loading="lazy"
+                                    />
+                                    <div
+                                        class="
+                                            know-me-section__article__description
+                                        "
+                                    >
+                                        <h4>About Me</h4>
+                                        <p>
+                                            I’m an expert in my field but I
+                                            wouldn’t be where I am without those
+                                            who've helped me along the way.
+                                            That’s why I love connecting with
+                                            like-minded people and using my
+                                            passion and skills to make a
+                                            difference.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="know-me-section__article">
-                                <img
-                                    src="./assets/images/my-project.jpeg"
-                                    alt="My Project"
-                                    loading="lazy"
-                                />
-                                <div
-                                    class="
-                                        know-me-section__article__description
-                                    "
-                                >
-                                    <h4>My Project</h4>
-                                    <p>
-                                        I'm always working on something. Most of
-                                        the time, it's getting results for my
-                                        clients. But sometimes, it's a personal
-                                        project that lets me explore new
-                                        concepts and ideas.
-                                    </p>
+                            </li>
+                            <li>
+                                <div class="know-me-section__article">
+                                    <img
+                                        src="./assets/images/my-project.jpeg"
+                                        alt="My Project"
+                                        loading="lazy"
+                                    />
+                                    <div
+                                        class="
+                                            know-me-section__article__description
+                                        "
+                                    >
+                                        <h4>My Project</h4>
+                                        <p>
+                                            I'm always working on something.
+                                            Most of the time, it's getting
+                                            results for my clients. But
+                                            sometimes, it's a personal project
+                                            that lets me explore new concepts
+                                            and ideas.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="know-me-section__article">
-                                <img
-                                    src="./assets/images/my-values.jpeg"
-                                    alt="My Values"
-                                    loading="lazy"
-                                />
-                                <div
-                                    class="
-                                        know-me-section__article__description
-                                    "
-                                >
-                                    <h4>My Values</h4>
-                                    <p>
-                                        My business is more than just a job.
-                                        Each time I take on a new project, I
-                                        make sure it aligns with my core set of
-                                        values so I know I can deliver great
-                                        results.
-                                    </p>
+                            </li>
+                            <li>
+                                <div class="know-me-section__article">
+                                    <img
+                                        src="./assets/images/my-values.jpeg"
+                                        alt="My Values"
+                                        loading="lazy"
+                                    />
+                                    <div
+                                        class="
+                                            know-me-section__article__description
+                                        "
+                                    >
+                                        <h4>My Values</h4>
+                                        <p>
+                                            My business is more than just a job.
+                                            Each time I take on a new project, I
+                                            make sure it aligns with my core set
+                                            of values so I know I can deliver
+                                            great results.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
 
                 <!-- 
                     # [SECTION] My Services

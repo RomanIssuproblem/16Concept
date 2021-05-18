@@ -19,6 +19,7 @@
     text-align: center;
 
     color: #f2f2f2;
+    font-size: 20px;
     font-family: Mukta;
     flex: 2;
 
@@ -26,10 +27,20 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
+.header-container__main > h1 {
+    font-family: "Playfair Display", serif;
+}
+
+.header-container__main > p {
+    padding: 0 20%;
+    margin: 32px auto;
+}
+
 .header-container__navbar {
     position: fixed;
     width: 100%;
 }
+
 .header-container__navbar-conainer {
     display: flex;
     justify-content: space-between;

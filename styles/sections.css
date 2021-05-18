@@ -1,28 +1,3 @@
-@font-face {
-    font-family: Mukta;
-    src: url(./assets/fonts/Mukta-Regular.ttf);
-}
-@font-face {
-    font-family: Mukta-SemiBold;
-    src: url(./assets/fonts/Mukta-SemiBold.ttf);
-}
-
-h1,
-body {
-    margin: 0;
-    font-family: Mukta;
-}
-
-* {
-    -webkit-font-smoothing: antialiased;
-}
-
-.container {
-    background-color: #f2f2f2;
-    padding: 0;
-    margin: 0;
-}
-
 /* 
  * Makes me Different Section
  */
