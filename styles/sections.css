@@ -18,6 +18,7 @@
 .makes-different-section > ul {
     flex: 2;
     list-style-type: none;
+    padding-left: 8px;
 }
 
 .makes-different-section__article {
@@ -67,6 +68,7 @@
 .know-me-section > ul {
     list-style-type: none;
     display: flex;
+    padding: 0;
 }
 
 .know-me-section > ul > li {
@@ -74,8 +76,8 @@
     margin-right: 16px;
 }
 
-.know-me-section__article {
-    /* text-align: center; */
+.know-me-section > ul > li:last-child {
+    margin-right: 0;
 }
 
 .know-me-section__article > img {

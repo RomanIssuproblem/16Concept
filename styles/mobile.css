@@ -19,7 +19,6 @@
         padding: 0;
     }
     .makes-different-section__article__image {
-        width: 100%;
         margin-right: 0;
         margin-bottom: 16px;
     }
@@ -29,11 +28,14 @@
      */
     .know-me-section > ul {
         flex-direction: column;
-        padding: 0;
+    }
+
+    .know-me-section > ul > li {
+        margin-right: 0;
     }
 
     .know-me-section__article > img {
-        height: 200px;
+        height: 280px;
     }
 
     /* 

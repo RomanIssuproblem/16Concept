@@ -10,8 +10,9 @@
 .btn {
     background-color: #fff;
     padding: 16px 30px;
-    border-radius: 16px;
-    border: 1px solid black;
 
-    max-width: 200px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+
+    color: #323335;
 }
