@@ -10,6 +10,7 @@
 h1,
 body {
     margin: 0;
+    font-family: Mukta;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -19,16 +20,20 @@ body {
     margin: 0;
 }
 
+/* 
+ * Makes me Different Section
+ */
 .makes-different-section {
     background-color: #000;
     color: #fff;
 
     display: flex;
 
-    padding: 16px 10%;
+    padding: 16px 5%;
 }
 
 .makes-different-section__title {
+    font-size: 28px;
     flex: 1;
 }
 
@@ -64,4 +69,48 @@ body {
     font-size: 24px;
     margin: 0;
     font-family: Mukta-SemiBold;
+}
+
+/* 
+ * Get to Know me Section
+ */
+.know-me-section {
+    color: #fff;
+    background-color: black;
+
+    padding: 16px 5%;
+}
+
+.know-me-section__title {
+    font-size: 28px;
+    font-family: Mukta;
+}
+
+.know-me-section > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.know-me-section > ul > li {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.know-me-section__article {
+    /* text-align: center; */
+}
+
+.know-me-section__article > img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.know-me-section__article__description {
+    font-size: 18px;
+    font-family: Mukta;
+}
+
+.know-me-section__article__description > h4 {
+    font-size: 24px;
 }
